@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project Management</title>
+</head>
+
+<body style="margin: 5%;">
+    <h1 style="text-align: center;"><b><u>Project Management</u></b></h1>
+    <form style="position: relative; background-color: aqua; font-size: larger;">
+        <label for="pname" style="font-family: 'Segoe UI'"><b>Project Name: </b></label><input type="text" value="project name"><br />
+        <label for="assign" style="font-family: 'Segoe UI'"><b>Assigned to: </b></label>
+        <input list="assign" value="Er Marry Petision">
+        <datalist id="assign">
+            <option value="lorem">lorem</option>
+            <option value="ipsum">ipsum</option>
+            <option value="Er merry petision">Er Merry Petision</option>
+            <option value="Safari">Safari</option>
+        </datalist><br />
+        <label for="start" style="font-family: 'Segoe UI'"><b>Start Date: </b></label><input type="date" name="start"><br />
+        <label for="end" style="font-family: 'Segoe UI'"><b>End Date: </b></label><input type="date" name="end"><br />
+        <label for="priority" style="font-family: 'Segoe UI'"><b>Priority: </b></label>
+        <input type="radio" name="high"> High <input type="radio" name="avg"> Average<input type="radio" name="low"> Low
+        <br />
+        <label for="desc" style="font-family: 'Segoe UI'"><b>Description: </b></label><input type="text" size="30"><br /><br />
+        <p style="text-align: center;">
+            <input type="submit" style="background-color: rgb(61, 173, 61); color: white; font-size: large; font-family: Arial;">
+            <button type="reset" style="background-color: rgb(84, 147, 229); color: white; font-size: large; font-family: Arial"> Clear </button>
+        </p>
+    </form>
+</body>
+
+</html>
